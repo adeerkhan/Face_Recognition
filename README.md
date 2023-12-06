@@ -22,6 +22,8 @@ Use `--mixedprec` flag to enable mixed precision training. This is recommended f
 ```
 Softmax (softmax)
 Triplet (triplet)
+AngleProto (angular prototypical)
+ArcFace (arcface)
 ```
 
 For softmax-based losses, `nPerClass` should be 1, and `nClasses` must be specified. For metric-based losses, `nPerClass` should be 2 or more. 
@@ -29,6 +31,7 @@ For softmax-based losses, `nPerClass` should be 1, and `nClasses` must be specif
 ### Implemented models
 ```
 ResNet18
+GhostFaceNet
 ```
 
 ### Adding new models and loss functions
